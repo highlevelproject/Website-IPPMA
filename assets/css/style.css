@@ -606,7 +606,7 @@ a.theme-btn {
   background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../images/preloader.gif); }
+  background-image: url(../images/logos/logo\ giff.gif); }
 
 /* Pagination */
 .pagination {
@@ -1023,7 +1023,8 @@ a.theme-btn {
   .home-one .slick-arrow {
     border-radius: 50%; }
   .home-one .preloader {
-    background-image: url(../images/preloader2.gif); }
+    background-image: url(../images/logos/logo\ giff.gif); 
+    width: 100%;}
   .home-one .text-center .sub-title:after, .home-one .text-center .sub-title:before {
     display: block; }
 
