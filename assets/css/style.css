@@ -1339,7 +1339,7 @@ h6, .h6 {
 
 .pt-130,
 .py-130 {
-  padding-top: 130px; }
+  padding-top: 30px; }
 
 .pt-135,
 .py-135 {
@@ -1540,7 +1540,7 @@ h6, .h6 {
 
 .pb-130,
 .py-130 {
-  padding-bottom: 130px; }
+  padding-bottom: 30px; }
 
 .pb-135,
 .py-135 {
@@ -3722,9 +3722,21 @@ h6, .h6 {
 /* Menu White */
 .main-header.header-two {
   position: absolute; }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (max-width: 1920px) {
     .main-header.header-two .nav-outer {
-      margin-left: 75px; } }
+      margin-left: 65%; } }
+  @media only screen and (max-width: 1350px) {
+    .main-header.header-two .nav-outer {
+      margin-left: 65%; } }
+  @media only screen and (max-width: 1250px) {
+    .main-header.header-two .nav-outer {
+      margin-left: 62%; } }
+  @media only screen and (max-width: 1100px) {
+    .main-header.header-two .nav-outer {
+      margin-left: 58%; } }
+  @media only screen and (max-width: 995px) {
+    .main-header.header-two .nav-outer {
+      margin-left: 0%; } }
   .main-header.header-two .nav-search > button {
     color: white; }
   @media only screen and (min-width: 992px) {
